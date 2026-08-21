@@ -5,21 +5,21 @@ def student_information():
         if student_first_name.isalpha():
             break
         else:
-            print("Please enter a valid first name.")
+            print("Invalid first name.")
 
     while True:
         student_last_name = input("Enter your last name: ").strip()
         if student_last_name.isalpha():
             break
         else:
-            print("Please enter a valid last name.")
+            print("Invalid last name.")
 
     while True:
         student_department = input("Enter your department: ").strip()
         if student_department.isalpha():
             break
         else:
-            print("Please enter a valid department.")
+            print("Invalid department.")
 
     return student_first_name, student_last_name, student_department
 
@@ -53,7 +53,7 @@ def grade(score):
         return "F"
 
 
-# === Main program ===
+# === Call-backs ===
 first_name, last_name, department = student_information()
 math_score, english_score = get_score()
 
