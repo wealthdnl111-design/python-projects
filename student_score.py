@@ -37,7 +37,7 @@ def get_score():
             continue
         return score_value_m, score_value_e
 
-
+# === Grade ===
 def grade(score):
     if 70 <= score <= 100:
         return "A"
