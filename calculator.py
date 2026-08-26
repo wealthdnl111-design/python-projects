@@ -1,3 +1,5 @@
+print("===== CALCULATOR =====")
+
 def calculator():
     while True:
         num1_input = input("Enter the first number: ")
