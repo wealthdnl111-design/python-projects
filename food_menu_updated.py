@@ -26,3 +26,4 @@ if food_name:
     print(f"Total = ₦{total:,}")
 else:
     print("Invalid choice.")
+    
